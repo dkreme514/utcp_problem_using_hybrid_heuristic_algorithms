@@ -159,7 +159,9 @@ Enrollment range	15-105
 Room capacity range	35-110
 
 8. Results
-Table 1 summarizes the performance of the four approaches. DSATUR is fastest but leaves violations and a high soft cost. Simulated annealing improves the schedule by accepting occasional worse moves and escaping local minima. The genetic algorithm produces a lower cost than simulated annealing but requires more runtime. The hybrid algorithm achieves the best balance: it removes hard violations entirely and obtains the lowest objective cost among the tested methods.
+Table 1 summarizes the performance of the four approaches. DSATUR is fastest but leaves violations and a high soft cost. Simulated annealing improves the schedule 
+by accepting occasional worse moves and escaping local minima. The genetic algorithm produces a lower cost than simulated annealing but requires more runtime.
+The hybrid algorithm achieves the best balance: it removes hard violations entirely and obtains the lowest objective cost among the tested methods.
 
 Algorithm	            Hard Violations	            Weighted Cost	            Runtime
 DSATUR	                           12	                      340	              0.5 s
